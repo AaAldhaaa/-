@@ -1,0 +1,25 @@
+# SillyTavern Audience View
+
+Audience View 是一个 SillyTavern 第三方扩展，用来把当前聊天内容当作小说、漫画或连载剧情，生成一群“上帝视角观众”的评论。
+
+观众可以吐槽剧情、分析人物、磕 CP、预测后续、发疯、心疼角色，形成类似小说评论区、漫画弹幕或论坛讨论区的独立界面。
+
+## 功能
+
+- 独立扩展界面
+- 可手动开启或关闭
+- 可手动生成观众评论
+- 可在新消息后自动生成观众评论
+- 独立 API 配置
+- 支持 OpenAI-compatible `/chat/completions` 接口
+- 可配置模型、Temperature、Max tokens
+- 可编辑、扩增、删除回复模板
+- 支持多个观众评论模板
+- 评论会保存在 SillyTavern 扩展设置中
+
+## 安装
+
+把本仓库放到 SillyTavern 的第三方扩展目录：
+
+```text
+SillyTavern/public/scripts/extensions/third-party/sillytavern-audience-view/
